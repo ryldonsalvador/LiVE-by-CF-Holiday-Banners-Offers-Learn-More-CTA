@@ -8,9 +8,9 @@ function setElements(){
 	TweenMax.set('#main_content', {opacity:1, delay:.3});
 
 	TweenMax.set('#phone', {x:-300});
-	TweenMax.set('.text1', {y:20, autoAlpha:0});
+	TweenMax.set('.text1', {y:50, autoAlpha:0});
 	TweenMax.set('.text2', {y:-50, autoAlpha:0});
-	TweenMax.set('#phone2', {y:250});
+	TweenMax.set('#phone2', {y:600});
 	TweenMax.set('#cta', {y:10, autoAlpha:0});
 
 	TweenMax.delayedCall(0.3, introFrame);
